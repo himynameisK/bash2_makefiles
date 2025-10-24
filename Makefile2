@@ -1,4 +1,3 @@
-запустить добавив строки в Makefile
 make -f Makefile2 create
 make -f Makefile2 get ID=123
 make -f Makefile2 img IMG=path/to/img
