@@ -1,0 +1,22 @@
+запустить добавив строки в Makefile
+make -f Makefile2 create
+make -f Makefile2 get ID=123
+make -f Makefile2 img IMG=path/to/img
+make -f Makefile2 del ID=123
+
+В разработке, для тестирования/отладки кода часто используются makefiles
+в связке с утилитой curl
+
+вам предлагается реализовать 4 запроса и добавить их в Makefile2
+
+POST /pet Add a new pet to the store
+
+GET /pet/{petId} Find pet by ID
+
+POST /pet/{petId}/uploadImage uploads an image
+
+DELETE /pet/{petId} Deletes a pet
+
+
+Документация
+https://petstore.swagger.io/
